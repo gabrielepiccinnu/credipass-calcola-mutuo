@@ -12,6 +12,12 @@
     padding: 15px;
 }
 
+.calc-form .form-control, .calc-form .custom-select {
+    border-radius: 0;
+}
+
+
+
 .calc-form::-webkit-scrollbar {
     width: 5px;
 }
