@@ -1,4 +1,4 @@
-<div class="calc-form form-calc-wrapper" id="form-calc-mutuo">
+<div class="container calc-form form-calc-wrapper" id="form-calc-mutuo">
     <input type="hidden" name="formtype" value="mutuo">
     <input type="hidden" name="tipoDiPratica" value="MUT">
 
@@ -88,9 +88,9 @@
 
     <div class="row mt-1">
         <div class="col-md-12">
-            <div class="offerta-container p-2">
-                <div class="row _no-gutters align-items-end">
-                    <div class="col-6 pb-2">
+            <div class="offerta-container">
+                <div class="row no-gutters align-items-end">
+                    <div class="col-6 pl-3 pb-2">
                         <h6 class="rata">Rata Mutuo</h6>
                         <div class="rata">
                             <h3 class="rata-value" id="rataMut">480.41€</h3>
@@ -111,7 +111,7 @@
                         </div>
                     </div>
                 </div>
-                <div class="row _no-gutters">
+                <div class="row no-gutters">
                     <div class="col-6">
                         <div class="dettagli-offerta">
                             <h6><span id="zeroAnticipo" style="display: none;" class="zero-anticipo">ZERO ANTICIPO!</span></h6>                    
