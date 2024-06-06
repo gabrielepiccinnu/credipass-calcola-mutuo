@@ -1,0 +1,101 @@
+.calc-form {
+    background-color: #12326e;
+    max-height: calc(100vh - 150px);
+    overflow: auto;
+    position: -webkit-sticky;
+    position: sticky;
+    top: 140px;
+    -webkit-transition: all .2s cubic-bezier(0,.8,.25,1);
+    -o-transition: all .2s cubic-bezier(0,.8,.25,1);
+    transition: all .2s cubic-bezier(0,.8,.25,1);
+    z-index: 111;
+    padding: 15px;
+}
+
+.calc-form::-webkit-scrollbar {
+    width: 5px;
+}
+
+.calc-form::-webkit-scrollbar-track {
+    background: #12326e;
+}
+
+.calc-form::-webkit-scrollbar-thumb {
+    background: #d5a719;
+}
+
+.calc-form::-webkit-scrollbar-thumb:hover {
+    background: #555;
+}
+
+@media (max-width: 1199.98px) {
+    .calc-form {
+        margin: 0 !important;
+        max-height: -webkit-fill-available !important;
+        top: 0 !important;
+    }
+}
+
+.calc-form h3, .calc-form label {
+    color: #fff;
+    margin-bottom: 0;
+    width: 100%;
+}
+
+.calc-form #zeroAnticipo, .calc-form p {
+    color: #d5a719;
+}
+
+.offerta-container {
+    background: #fff;
+    padding: 15px;
+    margin-top: 15px;
+}
+
+.offerta-container .rata-value {
+    color: #d5a719;
+    font-size: 2.5rem;
+    line-height: 1;
+    margin-bottom: 0;
+}
+
+@media (min-width: 1200px) and (max-width:1359.98px) {
+    .offerta-container .rata-value {
+        font-size:2rem;
+    }
+}
+
+#euro-symbol, #euro-symbol_immobile {
+    background: #d5a719;
+    border: none;
+    border-radius: 0;
+    color: #fff;
+}
+
+.dettagli-offerta {
+    font-size: 12px;
+    min-height: 30px;
+}
+
+.dettagli-offerta span {
+    font-weight: bold;
+}
+
+.form-info {
+    color: #fff !important;
+    font-size: 10px;
+    line-height: 1.2;
+    margin-top: 10px;
+}
+
+.calc-form .form-group .input-group-text {
+    padding-top: 10px;
+}
+
+button.close-map-form {
+    background: transparent;
+    color: #fff;
+    font-size: 14px;
+    margin-right: 5px;
+    margin-top: 10px;
+}
