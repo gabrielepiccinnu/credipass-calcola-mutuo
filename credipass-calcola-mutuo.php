@@ -111,7 +111,7 @@ add_action('wp_dashboard_setup', 'credipass_calcola_mutuo_add_dashboard_widget')
 function credipass_calcola_mutuo_dashboard_widget_render() {
     ?>
     <div id="credipass-sync-status"></div>
-    <button id="credipass-sync-button" class="button button-primary">Sincronizza Tassi</button>
+    <button id="credipass-sync-button" class="button button-primary">Sincronizza</button>
     <?php
 }
 
