@@ -70,11 +70,11 @@
     <div class="row">
         <div class="col-12">
             <div class="form-group form-inline">
-                <div class="tasso-checkbox form-check-inline">
+                <div class="tasso-checkbox form-check-inline pe-4">
                     <label for="tasso">Tipo di Tasso</label>
                 </div>
 
-                <div class="form-check form-check-inline">
+                <div class="form-check form-check-inline pe-3">
                     <input class="form-check-input fieldRata" type="radio" name="tipoDiTasso" id="tipoDiTasso-V" value="V" data-parsley-multiple="tipoDiTasso">
                     <label class="form-check-label" for="tipoDiTasso-V">Variabile</label>
                 </div>
