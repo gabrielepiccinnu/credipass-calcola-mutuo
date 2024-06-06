@@ -111,7 +111,7 @@
                         </div>
                     </div>
                 </div>
-                <div class="row no-gutters">
+                <div class="row _no-gutters">
                     <div class="col-6">
                         <div class="dettagli-offerta">
                             <h6><span id="zeroAnticipo" style="display: none;" class="zero-anticipo">ZERO ANTICIPO!</span></h6>                    
