@@ -89,7 +89,7 @@
     <div class="row mt-1">
         <div class="col-md-12">
             <div class="offerta-container p-2">
-                <div class="row no-gutters align-items-end">
+                <div class="row _no-gutters align-items-end">
                     <div class="col-6 pb-2">
                         <h6 class="rata">Rata Mutuo</h6>
                         <div class="rata">
